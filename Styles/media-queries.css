@@ -1,0 +1,62 @@
+/* For Tablets */
+
+@media screen and (max-width: 768px) {
+	#textarea {
+		width: 90%;
+	}
+
+	.keyboard {
+		padding: 10px;
+		font-size: 1.1em;
+	}
+
+	.keyboard span, .delete, .shift, .enter, .spacebar, .close {
+		padding: 10px 20px;
+	}
+}
+
+@media screen and (max-width: 689px) {
+	.keyboard span, .delete, .shift, .enter, .spacebar, .close {
+		padding: 10px 15px;
+	}
+}
+
+/* For Mobile */
+
+@media screen and (max-width: 425px) {
+	.heading {
+		font-size: 2.8em;
+	}
+
+	.keyboard span, .delete, .shift, .enter, .spacebar, .close {
+		padding: 10px;
+	}
+
+	.enter, .shift {
+		font-size: 0.7em;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.heading {
+		font-size: 2.5em;
+	}
+
+	#textarea {
+		width: 85%;
+	}
+
+	.keyboard span, .delete, .shift, .enter, .spacebar, .close {
+		padding: 8px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.keyboard span, .delete, .shift, .enter, .spacebar, .close {
+		padding: 7px 6px;
+	}
+
+	.spacebar {
+		width: 250px;
+	}
+}
